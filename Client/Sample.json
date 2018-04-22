@@ -1,0 +1,15 @@
+{
+  "dockerImage":"image1",
+  "cmdParameters": [
+    "param1","param2","param3"
+  ],
+  "environmentVariables": {
+    "name1":"value1",
+    "name2":"value2"
+  },
+  "requirements": {
+    "cpu":"1",
+    "memory":"2046"
+  }
+
+}

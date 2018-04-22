@@ -1,0 +1,19 @@
+POST http://127.0.0.1:5000/RegisterWorker
+
+{
+  "WorkerName":"Name1",
+   "cpu":1,
+    "memory":2046
+
+}
+####
+POST http://127.0.0.1:5000/GetNextJob
+Content-Type: application/json
+
+{
+  "resourceDetails": {
+     "cpu":"1",
+    "memory":"2046"
+  },
+  "runnerCode": "0"
+}
